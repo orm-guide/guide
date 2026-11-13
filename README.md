@@ -1,14 +1,14 @@
-# Open Science for Music Research
+# Open Research for Music
 
-This repository offers a guide to Open Science practices for music research, particularly aimed for music psychology and computational musicology, but also relevant for music information retrieval, music education, music technology, and musicology. See the compiled repo at:
+This repository offers a guide to Open Research practices for music research, particularly aimed for music psychology and computational musicology, but also relevant for music information retrieval, music education, music technology, and musicology. 
 
 [https://orm-guide.github.io/guide/](https://orm-guide.github.io/guide/)
 
-## Reasons for creating this resource
+## Motivation
 
-In music research, there is room for improvement in _transparency_ and _reproducibility_, to widen the _accessibility_ and _equity_ with Open access to publications and data ensures that researchers, practitioners, and the public can benefit from scientific knowledge. Also, _innovation_ and _collaboration_ benefits from Open Science. A good teaching material dedicated to music research is missing at the moment and this repo attempts to fill this gap.
+In music research, there is room for improvement in _transparency_ and _reproducibility_, to widen the _accessibility_ and _equity_ with Open access to publications and data ensures that researchers, practitioners, and the public can benefit from scientific knowledge. Also, _innovation_ and _collaboration_ benefits from Open Research. A good teaching material dedicated to music research is missing at the moment and this repo attempts to fill this gap.
 
-## The way this repository has been coordinated
+## Authors
 
 This is a collaborative enterprise, where various authors contribute to specific sections and themes, see also @sec-preface.
 
@@ -21,21 +21,21 @@ This is a collaborative enterprise, where various authors contribute to specific
 - Hazel van der Walle (UK), see [Department of Music, Durham University](https://www.durham.ac.uk/staff/hazel-a-van-der-walle/)
 
 
-## Organisation of the repository
+## Organisation
 
-- @sec-background explains the rationale and the broader picture
+- [Preface](preface.qmd) explains the rationale and the broader picture
 
-- @sec-OApubl covers the availability of research output and publications 
+- [Open publications](section2.qmd) covers the availability of research output and publications 
 
-- @sec-OAdata handles the availability of research data 
+- [Open data](section3.qmd) handles the availability of research data 
 
-- @sec-RR is about reproducible research, research code and software
+- [Reproducible research](section4.qmd) is about reproducible research, research code and software
 
-- @sec-replication explains the purpose of replicating studies
+- [Replication studies](section5.qmd) explains the purpose of replicating studies
 
-- @sec-open-review covers open peer review and post-publication peer review
+- [Open peer review](section6.qmd) covers open peer review and post-publication peer review
 
-- @sec-registration details study preregistration
+- [Preregistration](section7.qmd) details study preregistration
 
-- @sec-resources offers links to online resources
+- [Resources](resources.qmd) offers links to online resources
 
