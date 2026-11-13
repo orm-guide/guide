@@ -73,7 +73,7 @@ Replication also matters for *qualitative* and interpretive work (interviews, et
 - **Theoretical**: do propositions developed in one context hold in another, with different participants or settings?
 - **Reflexive**: revisiting an existing dataset with different assumptions. Are alternative interpretations defensible?
 
-Strict replication may be hard, but credibility rises when analytical procedures are documented, data are shared where ethically permissible, and interpretations are situated in existing theory. Transparency about sampling, coding scheme development, and interpretation does for qualitative work what preregistration does for quantitative work (see @sec-registration).
+Strict replication may be hard, but credibility rises when analytical procedures are documented, data are shared where ethically permissible, and interpretations are situated in existing theory. Transparency about sampling, coding scheme development, and interpretation does for qualitative work what preregistration does for quantitative work (see [Preregistration](section7.qmd)).
 
 ::: {.callout-note}
 **EXAMPLE: Qualitative replication**

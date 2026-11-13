@@ -1,6 +1,7 @@
 ---
 author: Dorien Herremans
 date: 6/15/2026
+toc: false
 ---
 
 # Availability of publications {#sec-OApubl}
