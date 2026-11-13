@@ -1,1 +1,1 @@
-Sitemap: https://github.com/tuomaseerola/OSMR/sitemap.xml
+Sitemap: https://orm-guide.github.io/guide/sitemap.xml

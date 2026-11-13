@@ -6,26 +6,17 @@ date: 7/29/2026
 # Background {#sec-background}
 
 
-## What is Open Science?
+## What is Open Research?
 
-Open Science (or *Open Research*) is an approach to conducting and communicating research that aims to make all stages of the research process more transparent, accessible, reproducible, and collaborative. It extends beyond open access publishing to encompass the sharing of data, software, methods, materials, peer review, and other research outputs throughout the research lifecycle [@Hardwicke2024Open]. Together, these practices help build [trust](#sec-trust), accelerate [progress](#sec-progress), promote [equity](#sec-equity), and strengthen the research [community](#sec-community).
+Open Research (or *Open Science*) is an approach to conducting and communicating research that aims to make all stages of the research process more transparent, accessible, reproducible, and collaborative. It extends beyond open access publishing to encompass the sharing of data, software, methods, materials, peer review, and other research outputs throughout the research lifecycle [@Hardwicke2024Open]. Together, these practices help build [trust](#sec-trust), accelerate [progress](#sec-progress), promote [equity](#sec-equity), and strengthen the research [community](#sec-community).
 
 ::: {.callout-note}
 
-### "Open Science" and "Open Research"?
+### "Open Research" and "Open Science"?
 
 The terms _Open Science_ and _Open Research_ are often used interchangeably. _Open Science_ has become the internationally recognised term adopted by organisations such as UNESCO and the European Commission to describe a broad movement towards greater transparency, accessibility, collaboration, and reproducibility throughout the research process. Despite its name, UNESCO explicitly defines Open Science as encompassing the natural sciences, social sciences, humanities, and the arts [@unesco2021openscience]. Nevertheless, many scholars, particularly in the humanities, prefer the term _Open Research_, arguing that it more naturally reflects the diversity of scholarly traditions beyond the sciences [@adams2026]. Throughout this repository, we use _Open Research_ when referring to research practices across the full spectrum of music research, while recognising _Open Science_ as the broader international framework within which these practices have developed.
 :::
 
-::: {.callout-important}
-
-### Should this repo be called?
-
-- A. Open Science for Music Research (original proposal, OSMR)
-- B. Open Research in Music (ORM)
-- C. Open Music Research (OMR)
-- D. Something else?
-:::
 
 ## Why Open Research?
 

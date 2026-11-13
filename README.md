@@ -1,6 +1,8 @@
 # Open Science for Music Research
 
-This repository offers a guide to Open Science practices for music research, particularly aimed for music psychology and computational musicology, but also relevant for music information retrieval, music education, music technology, and musicology. 
+This repository offers a guide to Open Science practices for music research, particularly aimed for music psychology and computational musicology, but also relevant for music information retrieval, music education, music technology, and musicology. See the compiled repo at:
+
+[https://orm-guide.github.io/guide/](https://orm-guide.github.io/guide/)
 
 ## Reasons for creating this resource
 

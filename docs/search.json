@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "Open Research for Music",
     "section": "",
-    "text": "1 Open Science for Music Research\nPreface Resources\nThis repository offers a guide to Open Science practices for music research, particularly aimed for music psychology and computational musicology, but also relevant for music information retrieval, music education, music technology, and musicology.",
+    "text": "1 Open Research for Music\nPreface Resources\nThis repository offers a guide to Open Research practices for music research, particularly aimed for music psychology and computational musicology, but also relevant for music information retrieval, music education, music technology, and musicology.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Open Science for Music Research</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Open Research for Music</span>"
     ]
   },
   {
@@ -14,9 +14,9 @@
     "href": "index.html#reasons-for-creating-this-resource",
     "title": "Open Research for Music",
     "section": "1.1 Reasons for creating this resource",
-    "text": "1.1 Reasons for creating this resource\nIn music research, there is room for improvement in transparency and reproducibility, to widen the accessibility and equity with Open access to publications and data ensures that researchers, practitioners, and the public can benefit from scientific knowledge. Also, innovation and collaboration benefits from Open Science. A good teaching material dedicated to music research is missing at the moment and this repo attempts to fill this gap.",
+    "text": "1.1 Reasons for creating this resource\nIn music research, there is room for improvement in transparency and reproducibility, to widen the accessibility and equity with Open access to publications and data ensures that researchers, practitioners, and the public can benefit from scientific knowledge. Also, innovation and collaboration benefits from Open Research. A good teaching material dedicated to music research is missing at the moment and this repo attempts to fill this gap.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Open Science for Music Research</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Open Research for Music</span>"
     ]
   },
   {
@@ -24,9 +24,9 @@
     "href": "index.html#the-way-this-repository-has-been-coordinated",
     "title": "Open Research for Music",
     "section": "1.2 The way this repository has been coordinated",
-    "text": "1.2 The way this repository has been coordinated\nThis is a collaborative enterprise, where various authors contribute to specific sections and themes, see also Chapter 2.\n\nTuomas Eerola (UK), see Department of Music, Durham University\nJohanna Devaney (US), see Brooklyn College, CUNY\nMartin Hartmann (Finland), see Centre of Excellence in Music, Mind, Body and Brain\nDorien Herremans (Singapore), see Audio, Music, and AI (AMAAI) Lab at Singapore University of Technology and Design\nFabian Moss (Germany), see Institut für Musikforschung at Julius-Maximilians University Würzburg\nJan Stupacher (Denmark), see Center for Music in the Brain\nHazel van der Walle (UK), see Department of Music, Durham University",
+    "text": "1.2 The way this repository has been coordinated\nThis is a collaborative enterprise, where various authors contribute to specific sections and themes, see also ?sec-preface.\n\nTuomas Eerola (Finland), see Department of Music, Arts, and Culture, University of Jyväskylä, Finland\nJohanna Devaney (US), see Brooklyn College, CUNY\nMartin Hartmann (Finland), see Centre of Excellence in Music, Mind, Body and Brain\nDorien Herremans (Singapore), see Audio, Music, and AI (AMAAI) Lab at Singapore University of Technology and Design\nFabian Moss (Germany), see Institut für Musikforschung at Julius-Maximilians University Würzburg\nJan Stupacher (Denmark), see Center for Music in the Brain\nHazel van der Walle (UK), see Department of Music, Durham University",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Open Science for Music Research</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Open Research for Music</span>"
     ]
   },
   {
@@ -34,9 +34,9 @@
     "href": "index.html#organisation-of-the-repository",
     "title": "Open Research for Music",
     "section": "1.3 Organisation of the repository",
-    "text": "1.3 Organisation of the repository\n\nChapter 3 explains the rationale and the broader picture\nChapter 4 covers the availability of research output and publications\nChapter 5 handles the availability of research data\nChapter 6 is about reproducible research, research code and software\nChapter 7 explains the purpose of replicating studies\nChapter 8 covers open peer review and post-publication peer review\nChapter 9 details study preregistration\n?sec-resources offers links to online resources",
+    "text": "1.3 Organisation of the repository\n\n?sec-background explains the rationale and the broader picture\n?sec-OApubl covers the availability of research output and publications\n?sec-OAdata handles the availability of research data\n?sec-RR is about reproducible research, research code and software\n?sec-replication explains the purpose of replicating studies\n?sec-open-review covers open peer review and post-publication peer review\n?sec-registration details study preregistration\n?sec-resources offers links to online resources",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Open Science for Music Research</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Open Research for Music</span>"
     ]
   },
   {
@@ -184,7 +184,7 @@
     "href": "preface.html",
     "title": "2  Preface",
     "section": "",
-    "text": "2.1 Plan and schedule\nIn music research, particularly for music psychology and computational musicology, we should have a repository of information about Open Science and its all areas (open access publication, open data, open code, registration, and replication). Some of this information has been put together for journal articles (Jensenius, 2021; Moss & Neuwirth, 2021), but having a centralised starting point for this would be helpful for training and awareness.\nThe repository of information can be best done with collaborative writing and compiling the resources together. The contributors represent various sub-disciplines of music research (music psychology, computational musicology, MIR) and different countries (legal implications and academic practices).",
+    "text": "2.1 Plan and schedule\nIn music research, particularly for music psychology and computational musicology, we should have a repository of information about Open Research and its all areas (open access publication, open data, open code, registration, and replication). Some of this information has been put together for journal articles (Jensenius, 2021; Moss & Neuwirth, 2021), but having a centralised starting point for this would be helpful for training and awareness.\nThe repository of information can be best done with collaborative writing and compiling the resources together. The contributors represent various sub-disciplines of music research (music psychology, computational musicology, MIR) and different countries (legal implications and academic practices).",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
     ]
@@ -204,7 +204,7 @@
     "href": "preface.html#contributors",
     "title": "2  Preface",
     "section": "2.2 Contributors (alphabetical)",
-    "text": "2.2 Contributors (alphabetical)\n\nTuomas Eerola (UK), see Department of Music, Durham University\nJohanna Devaney (US), see Brooklyn College, CUNY\nMartin Hartmann (Finland), see Centre of Excellence in Music, Mind, Body and Brain\nDorien Herremans (Singapore), see Audio, Music, and AI (AMAAI) Lab at Singapore University of Technology and Design\nFabian Moss (Germany), see Institut für Musikforschung at Julius-Maximilians University Würzburg\nJan Stupacher (Denmark), see Center for Music in the Brain\nHazel van der Walle (UK), see Department of Music, Durham University",
+    "text": "2.2 Contributors (alphabetical)\n\nTuomas Eerola (Finland), see Department of Music, Arts, and Culture, University of Jyväskylä, Finland\nJohanna Devaney (US), see Brooklyn College, CUNY\nMartin Hartmann (Finland), see Centre of Excellence in Music, Mind, Body and Brain\nDorien Herremans (Singapore), see Audio, Music, and AI (AMAAI) Lab at Singapore University of Technology and Design\nFabian Moss (Germany), see Institut für Musikforschung at Julius-Maximilians University Würzburg\nJan Stupacher (Denmark), see Center for Music in the Brain\nHazel van der Walle (UK), see Department of Music, Durham University",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
     ]
@@ -234,7 +234,7 @@
     "href": "section1.html",
     "title": "3  Background",
     "section": "",
-    "text": "3.1 What is Open Science?\nOpen Science (or Open Research) is an approach to conducting and communicating research that aims to make all stages of the research process more transparent, accessible, reproducible, and collaborative. It extends beyond open access publishing to encompass the sharing of data, software, methods, materials, peer review, and other research outputs throughout the research lifecycle (Hardwicke & Vazire, 2024). Together, these practices help build trust, accelerate progress, promote equity, and strengthen the research community.",
+    "text": "3.1 What is Open Research?\nOpen Research (or Open Science) is an approach to conducting and communicating research that aims to make all stages of the research process more transparent, accessible, reproducible, and collaborative. It extends beyond open access publishing to encompass the sharing of data, software, methods, materials, peer review, and other research outputs throughout the research lifecycle (Hardwicke & Vazire, 2024). Together, these practices help build trust, accelerate progress, promote equity, and strengthen the research community.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Background</span>"
     ]
@@ -587,6 +587,16 @@
     "text": "8.4 Resources\nhttps://prereview.org/resources: Free, openly licensed materials for writing reviews, training reviewers, and reviewing manuscripts collaboratively.\nhttps://reproducibilitea.org/post-publication-reviews.html: Guidance, templates, and toolkits for writing post-publication reviews and comments.\n\n\n\n\nAczel, B., Barwich, A.-S., Diekman, A. B., Fishbach, A., Goldstone, R. L., Gomez, P., Gundersen, O. E., Von Hippel, P. T., Holcombe, A. O., Lewandowsky, S., Nozari, N., Pestilli, F., & Ioannidis, J. P. A. (2025). The present and future of peer review: Ideas, interventions, and evidence. Proceedings of the National Academy of Sciences, 122(5), e2401232121. https://doi.org/10.1073/pnas.2401232121\n\n\nAczel, B., Szaszi, B., & Holcombe, A. O. (2021). A billion-dollar donation: Estimating the cost of researchers’ time spent on peer review. Research Integrity and Peer Review, 6(1), 14. https://doi.org/10.1186/s41073-021-00118-2\n\n\nBehrens, T. E., Dalal, Y., & Harper, D. M. (2026). Rethinking how research is reviewed and published. eLife, 15, e110392. https://doi.org/10.7554/eLife.110392\n\n\nBrembs, B., Huneman, P., Schönbrodt, F., Nilsonne, G., Susi, T., Siems, R., Perakakis, P., Trachana, V., Ma, L., & Rodriguez-Cuadrado, S. (2023). Replacing academic journals. Royal Society Open Science, 10(7), 230206. https://doi.org/10.1098/rsos.230206\n\n\nDavidson, M., Korfitsen, C. B., Riveros, C., Chaimani, A., & Boutron, I. (2025). Post-publication peer review and the identification of methodological and reporting issues in COVID-19 trials: A qualitative study. BMJ Evidence-Based Medicine, 30(4), 233–240. https://doi.org/10.1136/bmjebm-2024-113068\n\n\nEisen, M. B., Akhmanova, A., Behrens, T. E., Harper, D. M., Weigel, D., & Zaidi, M. (2020). Implementing a “publish, then review” model of publishing. eLife, 9, e64910. https://doi.org/10.7554/eLife.64910\n\n\nErvens, B., Carslaw, K. S., Koop, T., & Pöschl, U. (2025). Review of interactive open-access publishing with community-based open peer review for improved scientific discourse and quality assurance. Atmospheric Chemistry and Physics, 25(20), 13903–13952. https://doi.org/10.5194/acp-25-13903-2025\n\n\nHanson, M. A., Barreiro, P. G., Crosetto, P., & Brockington, D. (2024). The strain on scientific publishing. Quantitative Science Studies, 5(4), 823–843. https://doi.org/10.1162/qss_a_00327\n\n\nLemberger, T., & Pulverer, B. (2019). Review Commons—pre‐journal peer review. EMBO Reports, 20(12), e49663. https://doi.org/10.15252/embr.201949663\n\n\nRoss-Hellauer, T. (2017). What is open peer review? A systematic review. F1000Research, 6, 588. https://doi.org/10.12688/f1000research.11369.2\n\n\nRoss-Hellauer, T., & Horbach, S. P. J. M. (2024). Additional experiments required: A scoping review of recent evidence on key aspects of open peer review. Research Evaluation, 33, rvae004. https://doi.org/10.1093/reseval/rvae004\n\n\nStupacher, J. (2025). Enhancing peer review skills in higher education: A mixed-methods study on challenges and training needs. Discover Education, 4(1), 211. https://doi.org/10.1007/s44217-025-00663-8\n\n\nWaltman, L., Kaltenbrunner, W., Pinfield, S., & Woods, H. B. (2023). How to improve scientific peer review: Four schools of thought. Learned Publishing, 36(3), 334–347. https://doi.org/10.1002/leap.1544",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Open peer review</span>"
+    ]
+  },
+  {
+    "objectID": "section1.html#what-is-open-research",
+    "href": "section1.html#what-is-open-research",
+    "title": "3  Background",
+    "section": "",
+    "text": "Note“Open Research” and “Open Science”?\n\n\n\nThe terms Open Science and Open Research are often used interchangeably. Open Science has become the internationally recognised term adopted by organisations such as UNESCO and the European Commission to describe a broad movement towards greater transparency, accessibility, collaboration, and reproducibility throughout the research process. Despite its name, UNESCO explicitly defines Open Science as encompassing the natural sciences, social sciences, humanities, and the arts (UNESCO, 2021). Nevertheless, many scholars, particularly in the humanities, prefer the term Open Research, arguing that it more naturally reflects the diversity of scholarly traditions beyond the sciences (Adams et al., 2026). Throughout this repository, we use Open Research when referring to research practices across the full spectrum of music research, while recognising Open Science as the broader international framework within which these practices have developed.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Background</span>"
     ]
   }
 ]
