@@ -55,7 +55,7 @@ This is a collaborative enterprise, where various authors contribute to specific
 
 ## Organisation of the repository
 
-- @sec-background explains the rationale and the broader picture
+- [Preface](preface.qmd) explains the rationale and the broader picture
 
 - @sec-OApubl covers the availability of research output and publications 
 

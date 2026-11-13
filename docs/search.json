@@ -24,7 +24,7 @@
     "href": "index.html#the-way-this-repository-has-been-coordinated",
     "title": "Open Research for Music",
     "section": "1.2 The way this repository has been coordinated",
-    "text": "1.2 The way this repository has been coordinated\nThis is a collaborative enterprise, where various authors contribute to specific sections and themes, see also ?sec-preface.\n\nTuomas Eerola (Finland), see Department of Music, Arts, and Culture, University of Jyväskylä, Finland\nJohanna Devaney (US), see Brooklyn College, CUNY\nMartin Hartmann (Finland), see Centre of Excellence in Music, Mind, Body and Brain\nDorien Herremans (Singapore), see Audio, Music, and AI (AMAAI) Lab at Singapore University of Technology and Design\nFabian Moss (Germany), see Institut für Musikforschung at Julius-Maximilians University Würzburg\nJan Stupacher (Denmark), see Center for Music in the Brain\nHazel van der Walle (UK), see Department of Music, Durham University",
+    "text": "1.2 The way this repository has been coordinated\nThis is a collaborative enterprise, where various authors contribute to specific sections and themes, see also Chapter 2.\n\nTuomas Eerola (Finland), see Department of Music, Arts, and Culture, University of Jyväskylä, Finland\nJohanna Devaney (US), see Brooklyn College, CUNY\nMartin Hartmann (Finland), see Centre of Excellence in Music, Mind, Body and Brain\nDorien Herremans (Singapore), see Audio, Music, and AI (AMAAI) Lab at Singapore University of Technology and Design\nFabian Moss (Germany), see Institut für Musikforschung at Julius-Maximilians University Würzburg\nJan Stupacher (Denmark), see Center for Music in the Brain\nHazel van der Walle (UK), see Department of Music, Durham University",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Open Research for Music</span>"
     ]
@@ -34,7 +34,7 @@
     "href": "index.html#organisation-of-the-repository",
     "title": "Open Research for Music",
     "section": "1.3 Organisation of the repository",
-    "text": "1.3 Organisation of the repository\n\n?sec-background explains the rationale and the broader picture\n?sec-OApubl covers the availability of research output and publications\n?sec-OAdata handles the availability of research data\n?sec-RR is about reproducible research, research code and software\n?sec-replication explains the purpose of replicating studies\n?sec-open-review covers open peer review and post-publication peer review\n?sec-registration details study preregistration\n?sec-resources offers links to online resources",
+    "text": "1.3 Organisation of the repository\n\nPreface explains the rationale and the broader picture\n?sec-OApubl covers the availability of research output and publications\n?sec-OAdata handles the availability of research data\n?sec-RR is about reproducible research, research code and software\n?sec-replication explains the purpose of replicating studies\n?sec-open-review covers open peer review and post-publication peer review\n?sec-registration details study preregistration\n?sec-resources offers links to online resources",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Open Research for Music</span>"
     ]
