@@ -1,0 +1,94 @@
+---
+author: Hazel A. van der Walle
+date: 6/4/2026
+---
+# Replication Studies {#sec-replication}
+
+## The importance of replication {#sec-replication-importance}
+
+A single study, however carefully designed, provides limited evidence. Its results may reflect a genuine effect, but also sampling variability, methodological quirks, or unreported researcher decisions. Claims become more credible when independent researchers, using fresh samples, reach similar conclusions.
+
+The scale of the problem became widely visible when the Open Science Collaboration [-@open2015estimating] tried to replicate 100 studies from three leading psychology journals. Fewer than half replicated by the conventional criterion (significant, same direction), and replication effect sizes averaged roughly half those originally reported. How to interpret these numbers is still debated, but the project showed that many published findings may be less robust than they look.
+
+Music psychology, closely tied to experimental psychology, is not immune. Small or convenience samples, stimuli that are rarely shared, and paradigms developed without cross-cultural validation are common. Because musical experience also depends on cultural background, familiarity, and individual differences, transparent reporting and a willingness to replicate key findings matter all the more.
+
+## What is replication? {#sec-replication-definition}
+
+Nosek and Errington [-@nosek2020replication] define a replication as an investigation that minimally alters the original circumstances while testing the same theoretical prediction. The aim is therefore not to reproduce the same numbers, but to test whether the same inference holds with new evidence. Whether a replication succeeds or fails depends not on whether the statistics match, but on whether the conditions gave the original claim a genuine opportunity to be confirmed or disconfirmed.
+
+<!-- ✂ CHANGE 3: "Types of replication" intro cut from ~85 to ~45 words, AND ADDED a summary table (@tbl-replication-types) built only from material already in this chapter. Delete the table if you prefer prose only. -->
+## Types of replication {#sec-replication-types}
+
+Replications differ in how closely they follow the original. The usual distinction is between *direct* and *conceptual* replication, which LeBel et al. [@lebel2018unified; @lebel2019brief] extend into a finer taxonomy graded by procedural, sample, and contextual similarity to the original.
+
+| Type | What changes | What it tells you | Example below |
+|:-----|:-------------|:------------------|:--------------|
+| Direct | Almost nothing | Whether the finding persists under matched conditions | Mozart effect |
+| Conceptual | Methods, stimuli, measures or population | Whether the theoretical claim generalises | Mode and emotion across cultures |
+| Multi-lab | Many sites, one coordinated protocol | Average robustness and cross-site variability | Universals in song |
+
+: Three kinds of replication. {#tbl-replication-types}
+
+### Direct replication {#sec-replication-direct}
+
+A direct replication reproduces the original study as closely as possible, with the same or highly similar procedures, stimuli, measures, and population. A failure suggests the effect may have been a false positive, an overestimate, or dependent on an uncontrolled feature of the original.
+
+In music research, stimuli are often inadequately reported or unavailable: commercial recordings may not be shareable, and excerpt boundaries or recording versions are frequently omitted. Publishing stimuli, or reporting them in enough detail to approximate them, is a prerequisite for direct replication (see @sec-opendata-copyright).
+
+::: {.callout-tip}
+**EXAMPLE: Direct replication**
+
+The *Mozart effect*, the claim that brief exposure to Mozart's music temporarily enhances spatial reasoning, was reported by Rauscher, Shaw, and Ky [-@rauscher1993music] and drew huge media and policy attention. Replications were inconsistent. Chabris [-@chabris1999prelude] argued that no reliable effect could be shown, and a meta-analysis of over 39 studies [@pietschnig2010mozart] found a small effect in aggregate, much smaller and more fragile than claimed and likely reflecting arousal or mood rather than a specific musical enhancement. A single unreplicated finding can gain outsized influence; systematic replication is how robustness gets established.
+:::
+
+### Conceptual replication {#sec-replication-conceptual}
+
+A conceptual replication tests the same theoretical claim with different methods, stimuli, measures, or populations. It speaks to generalisability but is harder to interpret when it fails: the theory may be wrong, or the new operationalisation may not capture the same construct. In music psychology it often takes the form of cross-cultural studies asking whether findings from Western listeners hold for other traditions.
+
+Adversarial collaboration, in which researchers with opposing views agree in advance on what would count as a fair test, makes failed conceptual replications harder to dismiss [e.g., @axt2026relationship; @binnendyk2025overconfidence; @matzke2015horizontal].
+
+::: {.callout-tip}
+**EXAMPLE: Conceptual replication**
+
+The link between major mode and happiness, and minor mode and sadness, is robust among Western-enculturated listeners. Egermann et al. [-@egermann2015universal] compared Western and Congolese participants and found mode-based emotional attributions substantially weaker in the Congolese sample, suggesting dependence on enculturation rather than universal auditory features.
+:::
+
+## Single studies and multi-lab replications {#sec-replication-scale}
+
+A single-lab replication shows whether a finding holds in a new sample, but it is limited by sample size and local context: success can still be a false positive, and failure can reflect local conditions. In multi-lab replications, many teams test the same hypothesis with a coordinated protocol. They give more reliable evidence and show whether effects vary across sites, samples, and cultures.
+
+Examples include the ManyLabs projects [@klein2014investigating; @klein2018many] and the Psychological Science Accelerator [PSA; @moshontz2018psychological]. Coordinated multi-site replications are still rare in music psychology; cross-cultural designs and large-scale online data collection are practical routes.
+
+::: {.callout-tip}
+**EXAMPLE: Multi-lab replication**
+
+Mehr et al. [-@mehr2019universality] collected data from participants in sixty societies to test claims about universals in song, such as discrete pitches, small intervals, and regular rhythm, and whether listeners can infer a song's social function (e.g., lullaby vs. dance song) from an unfamiliar culture. A shared stimulus set and coordinated protocol gave a far stronger test than any single lab could, while also documenting considerable cultural variation alongside apparent universals.
+:::
+
+## Qualitative research and replication {#sec-replication-qualitative}
+
+Replication also matters for *qualitative* and interpretive work (interviews, ethnography, case studies, thematic analysis), but it cannot mean reproducing population-level effects. Tuval-Mashiach [-@tuval2021replication] distinguishes three modes:
+
+- **Methodological**: the same analytical procedures applied to a new sample. Do comparable themes emerge?
+- **Theoretical**: do propositions developed in one context hold in another, with different participants or settings?
+- **Reflexive**: revisiting an existing dataset with different assumptions. Are alternative interpretations defensible?
+
+Strict replication may be hard, but credibility rises when analytical procedures are documented, data are shared where ethically permissible, and interpretations are situated in existing theory. Transparency about sampling, coding scheme development, and interpretation does for qualitative work what preregistration does for quantitative work (see @sec-registration).
+
+::: {.callout-tip}
+**EXAMPLE: Qualitative replication**
+
+DeNora [-@denora2000music] used ethnographic interviews to show how people use music for emotion regulation, identity construction, and managing everyday environments. Later qualitative studies with adolescents, older adults, and clinical populations were not designed as replications, but together they amount to a theoretical replication: the core propositions about music's self-regulatory functions recur across samples, protocols, and analytic approaches.
+:::
+
+## Summary {#sec-replication-summary}
+
+Replication is fundamental to the credibility of scientific findings, and it requires transparency about methods, stimuli, and analytical decisions.
+
+::: {.callout-tip}
+**Key points**
+
+- **Direct** replications ask whether a finding persists under matched conditions, **conceptual** replications whether the claim generalises, and **multi-lab** replications both average robustness and cross-site variability.
+- In music research, underspecified or unavailable stimuli, small and culturally restricted samples, and experience that depends on background are the main obstacles. Open materials and thorough stimulus reporting are preconditions for replication.
+- Replication suits predefined theoretical claims. For exploratory, interpretive, or practice-based work, transparency about process (documented decisions, shared data and materials, reflexive accounts) serves a similar purpose.
+:::
