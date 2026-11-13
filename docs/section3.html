@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Tuomas Eerola">
+<meta name="dcterms.date" content="2026-07-26">
+
+<title>5&nbsp; Open Data – Open Research for Music</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./section4.html" rel="next">
+<link href="./section2.html" rel="prev">
+<link href="./assets/orm-M-green.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-2dce52231073e7e5ad486a19dfcdc358.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+  document.documentElement.classList.add('orm-rich');
+  if (
+    window.location.pathname.endsWith('/index.html') ||
+    window.location.pathname.endsWith('/')
+  ) {
+    document.documentElement.classList.add('orm-index');
+  }
+</script>
+
+
+<link rel="stylesheet" href="orm.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./section3.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Open Data</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./assets/orm-logo.png" alt="Open Research for Music" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="./assets/orm-logo.png" alt="Open Research for Music" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Open Research for Music</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/tuomaseerola/OSMR" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Open Science for Music Research</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./section1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Background</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./section2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Availability of publications</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./section3.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Open Data</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./section4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Reproducible research</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./section5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Replication Studies</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./section6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Open peer review</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./section7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Preregistration</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Resources</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">References</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#sec-opendata-why" id="toc-sec-opendata-why" class="nav-link active" data-scroll-target="#sec-opendata-why"><span class="header-section-number">5.1</span> Why open data?</a></li>
+  <li><a href="#but-what-counts-as-data" id="toc-but-what-counts-as-data" class="nav-link" data-scroll-target="#but-what-counts-as-data"><span class="header-section-number">5.2</span> But what counts as “data”?</a></li>
+  <li><a href="#sec-opendata-fair" id="toc-sec-opendata-fair" class="nav-link" data-scroll-target="#sec-opendata-fair"><span class="header-section-number">5.3</span> F.A.I.R. principles in music research</a></li>
+  <li><a href="#sec-opendata-possible" id="toc-sec-opendata-possible" class="nav-link" data-scroll-target="#sec-opendata-possible"><span class="header-section-number">5.4</span> “As open as possible, as closed as necessary”</a>
+  <ul class="collapse">
+  <li><a href="#a-note-on-consent" id="toc-a-note-on-consent" class="nav-link" data-scroll-target="#a-note-on-consent"><span class="header-section-number">5.4.1</span> <em>A note on consent:</em></a></li>
+  <li><a href="#a-note-on-qualitative-data" id="toc-a-note-on-qualitative-data" class="nav-link" data-scroll-target="#a-note-on-qualitative-data"><span class="header-section-number">5.4.2</span> <em>A note on qualitative data:</em></a></li>
+  </ul></li>
+  <li><a href="#sec-opendata-workflow" id="toc-sec-opendata-workflow" class="nav-link" data-scroll-target="#sec-opendata-workflow"><span class="header-section-number">5.5</span> Working open data into your research workflow</a></li>
+  <li><a href="#sec-opendata-repositories" id="toc-sec-opendata-repositories" class="nav-link" data-scroll-target="#sec-opendata-repositories"><span class="header-section-number">5.6</span> Repositories and archiving</a></li>
+  <li><a href="#sec-opendata-copyright" id="toc-sec-opendata-copyright" class="nav-link" data-scroll-target="#sec-opendata-copyright"><span class="header-section-number">5.7</span> Original materials, stimuli, and copyright</a></li>
+  <li><a href="#sec-opendata-summary" id="toc-sec-opendata-summary" class="nav-link" data-scroll-target="#sec-opendata-summary"><span class="header-section-number">5.8</span> Summary</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/tuomaseerola/OSMR/edit/main/section3.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/tuomaseerola/OSMR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-OAdata" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Open Data</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Fabian Moss &amp; Hazel A. van der Walle </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 26, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="sec-opendata-why" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="sec-opendata-why"><span class="header-section-number">5.1</span> Why open data?</h2>
+<p>The starting question for any project is not “should we share our data?” but “what would actually prevent us from sharing, and does that apply here?” The guiding principle, <em>as open as possible, as closed as necessary</em> <span class="citation" data-cites="ukri2016concordat">(<a href="references.html#ref-ukri2016concordat" role="doc-biblioref">UK Research and Innovation, 2016</a>)</span>, makes openness the <strong>default</strong>: restricting access needs a specific justification (legal, ethical, commercial).</p>
+<p>Data is the evidence behind a paper’s interpretation. Without it, findings cannot be verified, errors cannot be caught, and nobody can ask new questions of the material. Sharing lets the effort of researchers and participants pay forward into meta-analyses, replications, reuse, and access for researchers who could not otherwise collect equivalent material.</p>
+</section>
+<section id="but-what-counts-as-data" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="but-what-counts-as-data"><span class="header-section-number">5.2</span> But what counts as “data”?</h2>
+<p>Music research spans “hard” sciences (“STEM”), to the arts, humanities, and social sciences (AHSS), each with different kinds of data and different relationships to openness.</p>
+<p>MIR and computational musicology have strong dataset-sharing cultures. Experimental music psychology is moving towards openness, but unevenly <span class="citation" data-cites="eerola2023transparency">(<a href="references.html#ref-eerola2023transparency" role="doc-biblioref">Eerola, 2024</a>)</span>. Musicology, ethnomusicology, music education, and practice research work in AHSS traditions, where data does not necessarily map neatly onto frameworks built for quantitative science. AHSS “data” should be understood more expansively: <strong>information used for reference and analysis</strong> <span class="citation" data-cites="gilby2022openresearch">(<a href="references.html#ref-gilby2022openresearch" role="doc-biblioref">Gilby et al., 2022</a>)</span>.</p>
+<p>The FAIR principles (see <a href="#sec-opendata-fair" class="quarto-xref"><span>Section 5.3</span></a>) were developed mostly with computational and quantitative datasets in mind. <strong>C.O.R.E. data</strong> <span class="citation" data-cites="gilby2022openresearch adams2026morphss">(<a href="references.html#ref-adams2026morphss" role="doc-biblioref">Adams et al., 2026</a>; <a href="references.html#ref-gilby2022openresearch" role="doc-biblioref">Gilby et al., 2022</a>)</span> is a complementary (<em>not competing</em>) framework for AHSS data, addressing its nature, context, and interpretive aspects:</p>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>CORE describes research data as:</strong></p>
+<ul>
+<li><strong>C</strong>ollected: gathered, curated, and selected from existing sources (texts, scores, recordings, interviews, fieldwork notes, archives), not only generated. Curation is itself a scholarly contribution.</li>
+<li><strong>O</strong>rganised: structured, annotated, and navigable. This is interpretive work, so document and share it.</li>
+<li><strong>R</strong>econtextualised: shared along with the scholarly conversation and debates the data speaks to.</li>
+<li><strong>E</strong>xplained: transparency about how the data was worked with, coded, and interpreted counts as data sharing, even when the raw material cannot be released.</li>
+</ul>
+</div>
+</div>
+</div>
+<p>This widens our horizons of shareable outputs for <em>all</em> music researchers. Besides methods, code, results, preprints, and preregistrations, researchers can share practice reflections, audio-visual materials, protocols, annotated bibliographies, and researcher notes. These are legitimate contributions, not a fallback when raw data cannot be released <span class="citation" data-cites="gilby2022openresearch adams2026morphss">(<a href="references.html#ref-adams2026morphss" role="doc-biblioref">Adams et al., 2026</a>; <a href="references.html#ref-gilby2022openresearch" role="doc-biblioref">Gilby et al., 2022</a>)</span>. Where STEM stresses reproducibility, AHSS data is better understood as material to be built on and recontextualised. Sharing CORE data means sharing the conditions of its production, history, limits, and its relationships to data in other forms — manuscripts, printed scores, recordings, performances.</p>
+<p>For current practice, see <span class="citation" data-cites="eerola2023transparency">Eerola (<a href="references.html#ref-eerola2023transparency" role="doc-biblioref">2024</a>)</span> (music psychology), <span class="citation" data-cites="moss2021fair">Moss &amp; Neuwirth (<a href="references.html#ref-moss2021fair" role="doc-biblioref">2021</a>)</span> (computational musicology and MIR), and <span class="citation" data-cites="adams2026morphss">Adams et al. (<a href="references.html#ref-adams2026morphss" role="doc-biblioref">2026</a>)</span> and <span class="citation" data-cites="gilby2022openresearch">Gilby et al. (<a href="references.html#ref-gilby2022openresearch" role="doc-biblioref">2022</a>)</span> (AHSS beyond STEM).</p>
+</section>
+<section id="sec-opendata-fair" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="sec-opendata-fair"><span class="header-section-number">5.3</span> F.A.I.R. principles in music research</h2>
+<p>FAIR data is <strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, and <strong>R</strong>eusable <span class="citation" data-cites="moss2021fair">(<a href="references.html#ref-moss2021fair" role="doc-biblioref">Moss &amp; Neuwirth, 2021</a>)</span>.</p>
+<!-- FABIAN TO WRITE: this section.
+
+::: {.callout-caution appearance="minimal"}
+**Fabian's section.**
+:::
+
+::: {.callout-tip}
+**FAIR principles [@moss2021fair]:**
+
+- **F**indable — fff
+- **A**ccessible — aaa
+- **I**nteroperable — iii
+- **R**eusable — rrr
+
+:::
+
+> FOR FABIAN: Perhaps a table of common music data types could go here (audio, symbolic, behavioural, physiological, text) with FAIR / CORE considerations per type?
+-->
+</section>
+<section id="sec-opendata-possible" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="sec-opendata-possible"><span class="header-section-number">5.4</span> “As open as possible, as closed as necessary”</h2>
+<p>The principle covers qualitative and sensitive data as much as quantitative datasets. It does not excuse restricted access. It requires restrictions to be justified by specific constraints (ethical, legal, commercial), and rules out treating data as <em>categorically</em> exempt because it is complex, interpretive, or culturally sensitive.</p>
+<p>For CORE data, this changes what openness means <span class="citation" data-cites="adams2026morphss">(<a href="references.html#ref-adams2026morphss" role="doc-biblioref">Adams et al., 2026</a>)</span>. Rather than handing over raw data for others to re-run an analysis, you share the <em>conditions of its production</em>: how it was gathered, its provenance and limits, and its relationship to other forms of data (manuscript and printed edition; recording and live performance; interview and published account). Even when the <strong>C</strong> (raw material) cannot be released, the <strong>O</strong>, <strong>R</strong>, and <strong>E</strong> components usually can. These are often the most transferable part of a dataset, because they make the interpretive work visible.</p>
+<div class="callout callout-style-simple callout-important">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Almost-always sharable qualitative/AHSS materials</strong></p>
+<ul>
+<li><strong>Interview guide or protocol</strong></li>
+<li><strong>Codebook</strong>: definitions, examples, decision rules</li>
+<li><strong>Consent form template</strong></li>
+<li><strong>Anonymised excerpts</strong> used in the paper</li>
+<li><strong>Demographic summary</strong>, aggregated</li>
+<li><strong>Inter-rater reliability data</strong></li>
+<li><strong>Analytical memos</strong>, where not participant-identifiable</li>
+<li><strong>Research practice reflections</strong></li>
+<li><strong>Annotated bibliographies</strong></li>
+</ul>
+<p>For restricted-access deposit of sensitive material, the UK Data Service, DANS, and OSF all support configurations that keep a project publicly findable while controlling access to raw files.</p>
+</div>
+</div>
+</div>
+<section id="a-note-on-consent" class="level3" data-number="5.4.1">
+<h3 data-number="5.4.1" class="anchored" data-anchor-id="a-note-on-consent"><span class="header-section-number">5.4.1</span> <em>A note on consent:</em></h3>
+<p>Consent determines your flexibility at the point of sharing, and it must be <strong>designed before data collection</strong>, not at archiving. Forms that do not mention future sharing close off options that are hard to reopen. Distinguish between (a) anonymised quotation in publications, (b) deposit in a restricted-access archive for future research, and (c) retention within the research team.</p>
+</section>
+<section id="a-note-on-qualitative-data" class="level3" data-number="5.4.2">
+<h3 data-number="5.4.2" class="anchored" data-anchor-id="a-note-on-qualitative-data"><span class="header-section-number">5.4.2</span> <em>A note on qualitative data:</em></h3>
+<p>Anonymisation is more than removing names. A participant who is the only professional player of an instrument in a named city, or whose formative experience places them in a distinctive subculture, may be identifiable whatever the pseudonym. Alter or remove contextual details, <em>document what you changed</em>, and consult your ethics committee and data protection rules (UK GDPR / Data Protection Act 2018; EU GDPR) at the design stage, before data collection.</p>
+<!-- (POSSIBLE SPLIT POINT): [if this gets too long!]
+
+Everything ABOVE this line = "what open data is and why" (concepts, FAIR/CORE, ethics of sharing). 
+Everything BELOW = "how to share in practice" (workflow, DMPs, repositories, copyright). 
+
+>>> if we go with this split, I can move all lines below into a section3b.qmd (note to add to yml file). -->
+</section>
+</section>
+<section id="sec-opendata-workflow" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="sec-opendata-workflow"><span class="header-section-number">5.5</span> Working open data into your research workflow</h2>
+<p>Open data feels like extra work when it is done <em>after</em> the research, when you have forgotten your variable coding and which file is final. The fix is to document as you go: explain stages and decisions for a third party at the time you make them. That is cheaper than catching up later, it is better scholarship, and it is exactly the <strong>E</strong> (Explained) in CORE.</p>
+<p><strong>Documenting as you go:</strong></p>
+<ul>
+<li>Create a README file during data collection</li>
+<li>Save codebook versions, with definitions, before analysis</li>
+<li>Record selection criteria, and how a corpus or interview set was assembled, in real time</li>
+<li>Note which scholarly debates the dataset enters, before selection and refinement</li>
+</ul>
+<div class="callout callout-style-simple callout-important">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Minimum viable structure for a shareable dataset</strong></p>
+<ul>
+<li>A <code>README.txt</code>: what the dataset is, which study it came from, what each file contains, limitations or missing data, and where it fits in the scholarly conversation</li>
+<li>A codebook or equivalent: defined variables or categories and decision rules</li>
+<li>Open formats: CSV for tabular data, plain text or PDF/A for documents and qualitative material, MIDI or MusicXML for symbolic music</li>
+<li>Documentation of the analytical process and decisions</li>
+<li>Any analysis scripts needed to reproduce reported results</li>
+</ul>
+<p>Writing these during the project, not at the end, is faster and more useful, for others and for your future self.</p>
+</div>
+</div>
+</div>
+<!-- FABIAN TO WRITE:
+### Data management plans {#sec-opendata-dmp}
+
+*[For Fabian: Suggestion to cover funder requirements for formal DMPs (UKRI, Horizon Europe, NIH), tools such as DMPonline and the OSF DMP template, and the practical components of a DMP. DMPs for music research projects could specify data sharing plans in terms of FAIR/CORE principles, following framing introduced in §5.2.]*
+-->
+</section>
+<section id="sec-opendata-repositories" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="sec-opendata-repositories"><span class="header-section-number">5.6</span> Repositories and archiving</h2>
+<!-- FABIAN: [Main repository table / guidance? Could integrate here as a repository table or as a callout?]
+e.g.
+::: {.callout-caution appearance="minimal"}
+[need these sections worked in together — see what you think, Fabian!]
+:::
+-->
+<p>Things to check when choosing a repository: embargo options, versioning (without overlapping too much with the reproducibility chapter), and long-term preservation.</p>
+<div id="tbl-repositories" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-repositories-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;5.1: Where to deposit what.
+</figcaption>
+<div aria-describedby="tbl-repositories-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Material</th>
+<th style="text-align: left;">Where to look</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Any data type</td>
+<td style="text-align: left;">Zenodo, OSF, Dryad</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Qualitative or sensitive social science data</td>
+<td style="text-align: left;"><a href="https://ukdataservice.ac.uk/">UK Data Service</a> (UKDS) / <strong>Qualidata</strong>, <a href="https://dans.knaw.nl/">DANS</a>, <a href="https://www.icpsr.umich.edu/">ICPSR</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Practice research outputs</td>
+<td style="text-align: left;">Institutional repositories, e.g.&nbsp;<a href="https://archive.researchdata.leeds.ac.uk/">University of Leeds Research Data Repository</a>; OSF restricted access</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Symbolic music</td>
+<td style="text-align: left;"><a href="https://web.mit.edu/music21/">music21 corpus</a>, <a href="https://rism.info/">RISM</a>, <a href="https://josquin.stanford.edu/">Josquin Research Project</a>; ISMIR datasets</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>UKDS supports restricted-access deposits, so it suits sensitive or partially identifiable material, and DANS offers comparable tiered access. <em>Qualitative and AHSS data</em> (interview transcripts, fieldwork notes, annotated bibliographies, practice documentation, audio-visual materials) can be archived, but the right repository and level of access differ from quantitative datasets. Maximum openness is the aim, and the nature of the data determines what is open, restricted, or cannot be released.</p>
+<p><em>Practice research outputs</em> (scores, audio, video documentation, research blogs, performance datasets) can sit in institutional repositories alongside a dataset description listing resource locations, deposit dates, and access terms. OSF’s restricted-access configuration makes material findable while requiring a request to the depositor, so a project can be publicly registered, with codebooks, interview guides, and consent templates visible to all, while sensitive material stays protected.</p>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>The principle across all options:</strong> Make as much visible as possible, and document clearly what cannot be shared and why, rather than treating a whole dataset as closed because part of it is sensitive.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="sec-opendata-copyright" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="sec-opendata-copyright"><span class="header-section-number">5.7</span> Original materials, stimuli, and copyright</h2>
+<p>Commercial copyright is one of the clearest cases of “as closed as necessary”. It covers the audio files themselves, which often prevents redistributing commercial recordings used as stimuli. It <strong>does not</strong> cover the stimulus list, the selection rationale, extracted acoustic features, participant ratings, or the documentation of how stimuli were used.</p>
+<p>The easiest route is to use materials that can be shared from the start: CC-licensed audio, public-domain recordings (check the threshold in your jurisdiction), or purpose-composed or purpose-recorded stimuli released under a CC licence. Where the research question allows, choosing these at the design stage <em>is</em> the “as open as possible” decision.</p>
+<p>When commercial recordings are unavoidable, the <em>minimum expectation</em> is a stimulus list detailed enough for someone else to reconstruct or closely approximate the set. A stimulus list deposited with its <em>own DOI</em> is a citable research output in its own right.</p>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Stimulus reporting: what copyright closes, and what it does not</strong></p>
+<p>Copyright in a recording prevents redistributing the audio file. <em>It does <strong>not</strong> prevent sharing:</em></p>
+<ul>
+<li>Bibliographic details: title, artist/performer, album, recording year</li>
+<li>Persistent identifiers: Spotify URI, ISRC, YouTube URL (add bibliographic details, given link rot)</li>
+<li>Excerpt boundaries: start time (MM:SS) and duration (seconds)</li>
+<li>Playback level and processing: normalisation procedure (e.g., RMS to −20 dBFS), file format, sample rate, filtering, fades, EQ</li>
+<li>Selection rationale: criteria for inclusion and exclusion</li>
+<li>Extracted acoustic features (tempo, key/mode, spectral centroid, dynamic range) and participant ratings (familiarity, valence, arousal)</li>
+</ul>
+</div>
+</div>
+</div>
+<p>Notated scores and symbolic data (MIDI, MusicXML, MEI) are legally distinct from recordings. A MIDI transcription of a public-domain work can typically be shared freely. For contemporary works, clarify rights with the rights-holder or use datasets with permissions already secured.</p>
+<p>Practice-based researchers face a related challenge. For a composer, performer, or sound artist whose research <em>is</em> the creative work, sharing under an open licence has professional implications that differ from sharing an experimental stimulus set. The response is not to require full openness of the creative output, but to share as much of the <em>research around</em> the practice as possible: scores, performance instructions, methodological documentation, reflections on process, recordings of study performances, and structured dataset descriptions that make the project navigable and citable.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Case study: open research in music, drama, and performing arts</strong></p>
+<p>Jacobs <span class="citation" data-cites="jacobs2022openresearch">(<a href="references.html#ref-jacobs2022openresearch" role="doc-biblioref">2022</a>)</span> documents a senior academic, dramaturg, choreographer, and curator. The live performance and collaborative practice are not open-sourced, nor should they be. What is shared is the <em>research around</em> the practice: documentation of methods and know-how, archival and technical infrastructure, and data, talks, catalogues, and essays that would otherwise be lost. Reflexive accounts of the roles of artists and audiences are themselves a form of analytical explanation: the <strong>E</strong> in CORE.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Case study: The Garden of Forking Paths</strong></p>
+<p>Scott McLaughlin’s <em>Garden of Forking Paths</em> <span class="citation" data-cites="mclaughlin2022forking">(<a href="references.html#ref-mclaughlin2022forking" role="doc-biblioref">McLaughlin, 2022</a>)</span>, a practice research project on material-indeterminacy in open-form composition for clarinets, shared tutorials and videos, writing and workshop materials, scores and audio for solo and duo pieces, a blog documenting “the research as it happened”, and a dataset description listing resource locations and deposit dates. The creative works remain the composer’s; the research process, methodology, and materials are open. This is CORE in action: <strong>C</strong>ollected and <strong>O</strong>rganised materials around a creative practice, <strong>R</strong>econtextualised in debates about indeterminacy and instrument design, and <strong>E</strong>xplained through a documented process that others can follow, critique, and build on.</p>
+<p>Archived at the University of Leeds Research Data Repository (doi: <a href="https://doi.org/10.5518/1117">10.5518/1117</a>), with a project website at <a href="https://forkingpaths.leeds.ac.uk/">forkingpaths.leeds.ac.uk</a>.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="sec-opendata-summary" class="level2" data-number="5.8">
+<h2 data-number="5.8" class="anchored" data-anchor-id="sec-opendata-summary"><span class="header-section-number">5.8</span> Summary</h2>
+<p>Open is the default, and the burden of justification falls on any departure from it <span class="citation" data-cites="ukri2016concordat">(<a href="references.html#ref-ukri2016concordat" role="doc-biblioref">UK Research and Innovation, 2016</a>)</span>. In music research that burden is sometimes substantial (commercial copyright, ethical obligations, cultural sensitivities, GDPR), but these are reasons to close specific elements of specific projects, not to exempt the field. Openness takes different forms: FAIR-compliant datasets and open code in MIR and computational musicology; those plus qualitative and mixed-methods material in music psychology; and CORE-style sharing of the collection, organisation, recontextualisation, and explanation of data in musicology, ethnomusicology, music education, and practice research <span class="citation" data-cites="gilby2022openresearch adams2026morphss">(<a href="references.html#ref-adams2026morphss" role="doc-biblioref">Adams et al., 2026</a>; <a href="references.html#ref-gilby2022openresearch" role="doc-biblioref">Gilby et al., 2022</a>)</span>. Most of the work can be done up front, which costs far less than retrospective preparation. Open data is not an extra obligation on top of good research. It is part of what good research in music looks like.</p>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Sharing documented pieces: early decisions that matter</strong></p>
+<ul>
+<li><strong>Consent language</strong>: include explicit data-sharing permissions from the outset, distinguishing quotation, restricted-access archiving, and full public release (see <a href="#sec-opendata-possible" class="quarto-xref"><span>Section 5.4</span></a>)</li>
+<li><strong>File formats</strong>: use non-proprietary formats from the start, such as CSV over .xlsx, plain text or PDF/A, and MIDI or MusicXML (see <a href="#sec-opendata-workflow" class="quarto-xref"><span>Section 5.5</span></a>)</li>
+<li><strong>Licensing</strong>: apply a Creative Commons licence (CC-BY 4.0 is a sensible default) when you create materials</li>
+<li><strong>Audio stimuli</strong>: where the research question allows, choose openly licensed or purpose-recorded audio, since this removes a constraint that cannot be resolved later (see <a href="#sec-opendata-copyright" class="quarto-xref"><span>Section 5.7</span></a>)</li>
+<li><strong>Open notebooks/blogs</strong>: for practice research, a project blog or open notebook kept as the work unfolds creates a time-stamped record <span class="citation" data-cites="scroggie2023github">(<a href="references.html#ref-scroggie2023github" role="doc-biblioref">Scroggie et al., 2023</a>)</span></li>
+<li><strong>Repository</strong>: register a GitHub repository, OSF project, or equivalent <em>early</em>, to get a persistent link and a home for documentation as it accumulates (see <a href="#sec-opendata-repositories" class="quarto-xref"><span>Section 5.6</span></a>)</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-adams2026morphss" class="csl-entry" role="listitem">
+Adams, J., Barnes, M., Moore, S., Pinfield, S., &amp; Soni, S. (2026). <em>Openness in the arts, humanities and social sciences: Documenting open research practices beyond STEM (a MORPHSS project report)</em>. MORPHSS Project. <a href="https://doi.org/10.17613/h10rz-qk035">https://doi.org/10.17613/h10rz-qk035</a>
+</div>
+<div id="ref-eerola2023transparency" class="csl-entry" role="listitem">
+Eerola, T. (2024). Prevalence of transparency and reproducibility-related research practices in music psychology (2017-2022). <em>Musicae Scientiae</em>, <em>29</em>(2), 385–399. <a href="https://doi.org/10.1177/10298649241300885">https://doi.org/10.1177/10298649241300885</a>
+</div>
+<div id="ref-gilby2022openresearch" class="csl-entry" role="listitem">
+Gilby, E., Ammon, M., Leow, R., &amp; Moore, S. (2022). <em>Open research and the arts and humanities: Opportunities and challenges</em>. University of Cambridge Working Group on Open Research in the Arts; Humanities. <a href="https://doi.org/10.17863/CAM.86734">https://doi.org/10.17863/CAM.86734</a>
+</div>
+<div id="ref-jacobs2022openresearch" class="csl-entry" role="listitem">
+Jacobs, N. (2022). <em>Open research case study - music, drama and performing arts, film and screen studies</em>. <a href="https://doi.org/10.31219/osf.io/4y9rb">https://doi.org/10.31219/osf.io/4y9rb</a>
+</div>
+<div id="ref-mclaughlin2022forking" class="csl-entry" role="listitem">
+McLaughlin, S. (2022). <em>The <span>Garden</span> of <span>Forking</span> <span>Paths</span></em>. University of Leeds. <a href="https://doi.org/10.5518/1117">https://doi.org/10.5518/1117</a>
+</div>
+<div id="ref-moss2021fair" class="csl-entry" role="listitem">
+Moss, F. C., &amp; Neuwirth, M. (2021). FAIR, open, linked: Introducing the special issue on open science in musicology. <em>Empirical Musicology Review</em>, <em>16</em>(1), 1–4. <a href="https://doi.org/10.18061/emr.v16i1.8246">https://doi.org/10.18061/emr.v16i1.8246</a>
+</div>
+<div id="ref-scroggie2023github" class="csl-entry" role="listitem">
+Scroggie, K. R., Burrell-Sander, K. J., Rutledge, P. J., &amp; Motion, A. (2023). GitHub as an open electronic laboratory notebook for real-time sharing of knowledge and collaboration. <em>Digital Discovery</em>, <em>2</em>(4), 1188–1196. <a href="https://doi.org/10.1039/D3DD00032J">https://doi.org/10.1039/D3DD00032J</a>
+</div>
+<div id="ref-ukri2016concordat" class="csl-entry" role="listitem">
+UK Research and Innovation. (2016). <em>Concordat on open research data</em>. UK Research; Innovation. <a href="https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-ConcordatonOpenResearchData.pdf">https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-ConcordatonOpenResearchData.pdf</a>
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/github\.com\/tuomaseerola\/OSMR");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./section2.html" class="pagination-link" aria-label="Availability of publications">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Availability of publications</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./section4.html" class="pagination-link" aria-label="Reproducible research">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Reproducible research</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Open Research for Music was written by <a href="./preface.html">contributors</a>.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/tuomaseerola/OSMR/edit/main/section3.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/tuomaseerola/OSMR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>This book can be found at <a href="https://musicscience.uk/OSMR/">https://musicscience.uk/OSMR</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
