@@ -7,7 +7,7 @@ date: 7/26/2026
 
 ## Why open data? {#sec-opendata-why}
 
-The starting question for any project is not "should we share our data?" but "what would actually prevent us from sharing, and does that apply here?" The guiding principle, *as open as possible, as closed as necessary* [@ukri2016concordat], makes openness the **default**: restricting access needs a specific justification (legal, ethical, commercial). 
+The starting question for any project is not "should we share our data?" but "what would actually prevent us from sharing, and does that apply here?" The guiding principle, **as open as possible, as closed as necessary** [@ukri2016concordat], makes openness the *default*: restricting access needs a specific justification (legal, ethical, commercial). 
 
 Data is the evidence behind a paper's interpretation. Without it, findings cannot be verified, errors cannot be caught, and nobody can ask new questions of the material. Sharing lets the effort of researchers and participants pay forward into meta-analyses, replications, reuse, and access for researchers who could not otherwise collect equivalent material.
 
@@ -15,7 +15,7 @@ Data is the evidence behind a paper's interpretation. Without it, findings canno
 
 Music research spans "hard" sciences ("STEM"), to the arts, humanities, and social sciences (AHSS), each with different kinds of data and different relationships to openness. 
 
-MIR and computational musicology have strong dataset-sharing cultures. Experimental music psychology is moving towards openness, but unevenly [@eerola2023transparency]. Musicology, ethnomusicology, music education, and practice research work in AHSS traditions, where data does not necessarily map neatly onto frameworks built for quantitative science. AHSS "data" should be understood more expansively: **information used for reference and analysis** [@gilby2022openresearch].
+MIR and computational musicology have strong dataset-sharing cultures. Experimental music psychology is moving towards openness, but unevenly [@eerola2023transparency]. Musicology, ethnomusicology, music education, and practice research work in AHSS traditions, where data does not necessarily map neatly onto frameworks built for quantitative science. AHSS "data" should be understood more expansively: *information used for reference and analysis* [@gilby2022openresearch].
 
 The FAIR principles (see @sec-opendata-fair) were developed mostly with computational and quantitative datasets in mind. **C.O.R.E. data** [@gilby2022openresearch; @adams2026morphss] is a complementary (*not competing*) framework for AHSS data, addressing its nature, context, and interpretive aspects:
 
@@ -62,7 +62,7 @@ The principle covers qualitative and sensitive data as much as quantitative data
 
 For CORE data, this changes what openness means [@adams2026morphss]. Rather than handing over raw data for others to re-run an analysis, you share the *conditions of its production*: how it was gathered, its provenance and limits, and its relationship to other forms of data (manuscript and printed edition; recording and live performance; interview and published account). Even when the **C** (raw material) cannot be released, the **O**, **R**, and **E** components usually can. These are often the most transferable part of a dataset, because they make the interpretive work visible.
 
-::: {.callout-important}
+::: {.callout-warning}
 **Almost-always sharable qualitative/AHSS materials**
 
 - **Interview guide or protocol**
@@ -96,7 +96,7 @@ Everything BELOW = "how to share in practice" (workflow, DMPs, repositories, cop
 
 ## Working open data into your research workflow {#sec-opendata-workflow}
 
-Open data feels like extra work when it is done *after* the research, when you have forgotten your variable coding and which file is final. The fix is to document as you go: explain stages and decisions for a third party at the time you make them. That is cheaper than catching up later, it is better scholarship, and it is exactly the **E** (Explained) in CORE.
+Open data feels like extra work when it is done *after* the research, when you have forgotten your variable coding and which file is final. The fix is to **document as you go**: explain stages and decisions for a third party at the time you make them. That is cheaper than catching up later, it is better scholarship, and it is exactly the **E** (Explained) in CORE.
 
 **Documenting as you go:**
 
@@ -105,7 +105,7 @@ Open data feels like extra work when it is done *after* the research, when you h
 - Record selection criteria, and how a corpus or interview set was assembled, in real time
 - Note which scholarly debates the dataset enters, before selection and refinement
 
-::: {.callout-important}
+::: {.callout-warning}
 **Minimum viable structure for a shareable dataset**
 
 - A `README.txt`: what the dataset is, which study it came from, what each file contains, limitations or missing data, and where it fits in the scholarly conversation
@@ -159,7 +159,7 @@ The easiest route is to use materials that can be shared from the start: CC-lice
 
 When commercial recordings are unavoidable, the *minimum expectation* is a stimulus list detailed enough for someone else to reconstruct or closely approximate the set. A stimulus list deposited with its *own DOI* is a citable research output in its own right.
 
-::: {.callout-warning}
+::: {.callout-caution}
 **Stimulus reporting: what copyright closes, and what it does not**
 
 Copyright in a recording prevents redistributing the audio file. *It does **not** prevent sharing:*
