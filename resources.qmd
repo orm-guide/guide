@@ -12,10 +12,9 @@ A collection of resources related to open research.
 
 - [AsPredicted](https://aspredicted.org/) and [templates](https://osf.io/zab38/files/fnsb6)
 - [OSF Registries](https://osf.io/registries) and [templates](https://help.osf.io/article/330-welcome-to-registrations)
-- [OSF registration templates](https://help.osf.io/article/229-select-a-registration-template) at OSF.
+- [OSF registration templates](https://help.osf.io/article/229-select-a-registration-template) at OSF
 - [PROSPERO](https://www.crd.york.ac.uk/prospero/)
 - [Registered Reports Center (COS)](https://www.cos.io/rr) [templates](https://osf.io/d4fh5/files/93znh)
-
 
 ## Tools
 
@@ -23,14 +22,19 @@ A collection of resources related to open research.
 - [rOpenSci](https://ropensci.org/) - Tools, conferences, and education
 - [pyOpenSci](https://www.pyopensci.org/) - Promotes open and reproducible research through peer-review of scientific Python packages
 
+## Peer review
+
+- [https://prereview.org/resources](https://prereview.org/resources) - Free, openly licensed materials for writing reviews, training reviewers, and reviewing manuscripts collaboratively
+- [https://reproducibilitea.org/post-publication-reviews.html](https://reproducibilitea.org/post-publication-reviews.html) - Guidance, templates, and toolkits for writing post-publication reviews and comments
+
 ## Organisations and networks
 
 - [Open Science Framework](https://osf.io/) 
 - [FORRT](https://forrt.org/) - Framework for Open and Reproducible Research Training advancing research transparency, reproducibility, rigor, and ethics through pedagogical reform and meta-scientific research
-- [ReproducibiliTea](https://reproducibilitea.org) - global grassroots initiative with resources to aid discussions, learning, and engagement in various Open Research topics.
+- [ReproducibiliTea](https://reproducibilitea.org) - Global grassroots initiative with resources to aid discussions, learning, and engagement in various Open Research topics
 - [Reproducibility for Everyone](https://www.repro4everyone.org/) - Community-led reproducibility workshops
 - [CASCaD](https://www.cascad.tech/) - Certification Agency for Scientific Code and Data
-- [Replication Network](https://replicationnetwork.com/) - Furthering the practice of replication in economics.
+- [Replication Network](https://replicationnetwork.com/) - Furthering the practice of replication in economics
 - [MORPHSS](https://morphss.hcommons.org) Materialising Open Research Practices in the Humanities and Social Sciences - project funded by RED, Wellcome Trust, and the AHRC
 
 ## Music-specific resources
