@@ -19,7 +19,7 @@ Nosek and Errington [-@nosek2020replication] define a replication as **an invest
 <!-- ✂ CHANGE 3: "Types of replication" intro cut from ~85 to ~45 words, AND ADDED a summary table (@tbl-replication-types) built only from material already in this chapter. Delete the table if you prefer prose only. -->
 ## Types of replication {#sec-replication-types}
 
-Replications differ in how closely they follow the original. The usual distinction is between *direct* and *conceptual* replication, which LeBel et al. [@lebel2018unified; @lebel2019brief] extend into a finer taxonomy graded by procedural, sample, and contextual similarity to the original.
+Replications differ in how closely they follow the original. The usual distinction is between *direct* and *conceptual* replication, which LeBel et al. [-@lebel2018unified; -@lebel2019brief] extend into a finer taxonomy graded by procedural, sample, and contextual similarity to the original.
 
 | Type | What changes | What it tells you | Example below |
 |:-----|:-------------|:------------------|:--------------|

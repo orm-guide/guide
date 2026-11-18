@@ -6,21 +6,23 @@ toc: false
 
 # Availability of publications {#sec-OApubl}
 
+<!-- Maybe a bit of context would be helpful here to introduce the section. What were the models in the past, how digital publishing changed the game, and how are these changes beneficial?
+If there was a need for condensing, I would focus on the last part (Metrics, rankings, and research evaluation).MH -->
 
 ## Open publications
 
 There are several routes for making publications openly available, each with different cost structures, embargo conditions, and implications for funder compliance. For a concise overview of Open Access (OA) publishing, see @suber2012openaccess.
 
-- **Gold OA**: Publishing in a fully open-access journal where all content is immediately and permanently free to read without restrictions. Authors usually pay an Article Processing Charge (APC), through this varies widely by journal and discipline.
-- **Hybrid OA**: A subscription journal that allows individual articles to be made open access for a fee. Some funder mandates (e.g., [Plan S](https://www.coalition-s.org/), [UKRI](https://www.ukri.org/publications/ukri-open-access-policy/), [NIH](https://publicaccess.nih.gov/)) increasingly require immediate public access to accepted manuscripts, with no embargo under updated policies, which limits how straightforward hybrid options are. Under plan S in particular, hybrid journals are generally only compliant when covered by transformative agreements or formal transition pathways.
+- **Gold OA**: Publishing in a fully open-access journal where all content is immediately and permanently free to read without restrictions. Authors usually pay an Article Processing Charge (APC), though this varies widely by journal and discipline.
+- **Hybrid OA**: A subscription journal that allows individual articles to be made open access for a fee. Some funder mandates (e.g., [Plan S](https://www.coalition-s.org/), [UKRI](https://www.ukri.org/publications/ukri-open-access-policy/), [NIH](https://publicaccess.nih.gov/)) increasingly require immediate public access to accepted manuscripts, with no embargo under updated policies, which limits how straightforward hybrid options are. Under Plan S in particular, hybrid journals are generally only compliant when covered by transformative agreements or formal transition pathways.
 - **Diamond / Platinum OA**: Journals that are fully open access with no charges for authors or readers. These are typically supported by universities, societies, or library consortia. Several music journals follow this model (see below). For a broader overview, see @bosman2021oa.
 - **Green OA (self-archiving)**: Depositing the accepted manuscript in a repository such as [Zenodo](https://zenodo.org/), [arXiv](https://arxiv.org/) (see below), or an institutional repository. Policies differ by publisher, especially around embargo length and which versions can be shared: [Jisc - Open policy finder](https://openpolicyfinder.jisc.ac.uk/oa-compliance) can be used for checking journal-specific policies. In the EU, [Horizon Europe](https://research-and-innovation.ec.europa.eu/open-science_en) encourages this route and expects immediate open access to accepted manuscrits via repositories.
-- **APC costs and waivers**: APCs range from a few hundred to several thousand USD or EUR. Some publishers offer waivers or discounts for researchers without funding or from low-income countries, so it is worth checking before assuming APC-based OA is not feasible.
+- **Article Processing Charge (APC) costs and waivers**: APCs range from a few hundred to several thousand USD or EUR. Some publishers offer waivers or discounts for researchers without funding or from low-income countries, so it is worth checking before assuming APC-based OA is not feasible.
 
 ## OA publishing in numbers
 
-Open access publishing has grown substantially over the past decade, though the landscape remains uneven. Between 2014 and 2024, the share of global scholarly articles made available 
-via gold OA rose from 14% to 40%, while the subscription-only share fell from 70% to 54% [@stm2024dashboard]. This shift has been driven in part by funder mandates, but also by the 
+Open access publishing has grown substantially over the past decade, though the landscape remains uneven. Between 2014 and 2024, the share of global scholarly articles made available
+via gold OA rose from 14% to 40%, while the subscription-only share fell from 70% to 54% [@stm2024dashboard]. This shift has been driven in part by funder mandates, but also by the
 rapid growth of APC-funded publishing, which carries its own equity concerns: annual global APC spending across six major publishers alone almost tripled from \$910 million in 2019 to \$2.5 billion in 2023 [@haustein2024estimating].
 
 These figures describe the overall scholarly publishing market. Music research sits within this landscape but has its own characteristics: a mix of humanities, social science, and engineering publication norms; a strong conference culture in MIR; and a notable cluster of diamond OA journals (TISMIR, EMR) that charge neither authors nor readers. The table below summarises the main OA routes relevant to music researchers.
@@ -41,11 +43,11 @@ These figures describe the overall scholarly publishing market. Music research s
 Preprints, i.e., versions of manuscripts shared publicly before or alongside formal peer review, are now a widely used mechanism for rapid and open dissemination. For practical guidance on posting and managing preprints across the publication pipeline, see @moshontz2021guide.
 
 - **Where to post** (varies by subdiscipline):
-  - [arXiv](https://arxiv.org/) (categories `cs.SD` and `eess.AS`) for Music Information Retrieval (MIR), music technology, and Machine Leanring(ML)-adjacent work  
-  - [PsyArXiv](https://psyarxiv.com/) for music psychology  
-  - [OSF Preprints](https://osf.io/preprints/) for interdisciplinary work  
-  - [Zenodo](https://zenodo.org/) for general-purpose dissemination, including datasets and code alongside papers  
-  - [SSRN](https://www.ssrn.com/) for social science and related interdisciplinary work  
+  - [arXiv](https://arxiv.org/) (categories `cs.SD` and `eess.AS`) for Music Information Retrieval (MIR), music technology, and Machine Learning (ML)-adjacent work
+  - [PsyArXiv](https://psyarxiv.com/) for music psychology
+  - [OSF Preprints](https://osf.io/preprints/) for interdisciplinary work
+  - [Zenodo](https://zenodo.org/) for general-purpose dissemination, including datasets and code alongside papers
+  - [SSRN](https://www.ssrn.com/) for social science and related interdisciplinary work
   - [HAL](https://hal.science/) for computer science, engineering, humanities, and social sciences
 
 
@@ -55,7 +57,7 @@ Preprints, i.e., versions of manuscripts shared publicly before or alongside for
 
 - **Journal prior-posting policies**: Most journals now allow preprints, but conditions still vary regarding timing, licensing, and accepted manuscript versions. It is advisable to verify specific policies via [Jisc - Open policy finder](https://openpolicyfinder.jisc.ac.uk/) before submission.
 
-- **Citation advantage of preprints**: Several large-scale studies report that papers with an associated preprint tend to receive earlier and often higher citation counts compared to those without preprints, likely due to earlier visibility and dissemination (e.g., @serghiou2018altmetric, @fraser2020relationship).
+- **Citation advantage of preprints**: Several large-scale studies report that papers with an associated preprint tend to receive earlier and often higher citation counts compared to those without preprints, likely due to earlier visibility and dissemination [e.g., @serghiou2018altmetric, @fraser2020relationship].
 
 - **Academic sharing platforms**: Services such as [ResearchGate](https://www.researchgate.net/) and [Academia.edu](https://www.academia.edu/) are often used to upload and circulate papers, including preprints. However, they are not formal preprint repositories and do not provide consistent long-term preservation or clear policy compliance guarantees. They function more as academic networking and sharing spaces than as archival infrastructure.
 
@@ -114,11 +116,11 @@ When selecting a publication venue, it is important to consider how research out
 
 ### Journal impact factors and DORA
 
-The Journal Impact Factor (IF) is a journal-level metric measuring average citations per article over a two-year window. Despite its widespread use in hiring, promotion, and grant decisions, it has well-documented limitations: citation distributions within journals are highly skewed, the metric is field-specific and cannot be compared across disciplines, and it can be gamed through editorial policy [@american2012san]. The [San Francisco Declaration on Research Assessment (DORA)](https://sfdora.org/), now 
-signed by hundreds of funders and institutions worldwide, calls explicitly for research to be  assessed on its own merits rather than on the basis of the journal in which it is published  [@american2012san]. The [Leiden Manifesto](http://www.leidenmanifesto.org/) [@hicks2015bibliometrie] and the [Responsible Metrics framework](https://responsiblemetrics.org/) 
+The Journal Impact Factor (IF) is a journal-level metric measuring average citations per article over a two-year window. Despite its widespread use in hiring, promotion, and grant decisions, it has well-documented limitations: citation distributions within journals are highly skewed, the metric is field-specific and cannot be compared across disciplines, and it can be gamed through editorial policy [@american2012san]. The [San Francisco Declaration on Research Assessment (DORA)](https://sfdora.org/), now
+signed by hundreds of funders and institutions worldwide, calls explicitly for research to be  assessed on its own merits rather than on the basis of the journal in which it is published  [@american2012san]. The [Leiden Manifesto](http://www.leidenmanifesto.org/) [@hicks2015bibliometrie] and the [Responsible Metrics framework](https://responsiblemetrics.org/)
 extend these principles to bibliometrics more broadly.
 
-For music researchers, IF is often irrelevant or misleading: many leading music journals have no IF (TISMIR, EMR), musicology journals have structurally low citation rates compared to STEM journals, and much MIR research is published at conferences that have no IF at all. Researchers should be cautious about using IF to compare venues across these subdisciplines. 
+For music researchers, IF is often irrelevant or misleading: many leading music journals have no IF (TISMIR, EMR), musicology journals have structurally low citation rates compared to STEM journals, and much MIR research is published at conferences that have no IF at all. Researchers should be cautious about using IF to compare venues across these subdisciplines.
 
 An important alternative is the Source Normalized Impact per Paper (SNIP), which adjusts for field-specific citation practices by weighting citations against the citation potential of each subject area. This makes it more suitable than the raw IF for comparing across the disciplinary mix found in music research @moed2010measuring.
 
@@ -158,4 +160,3 @@ Authorship conventions and credit attribution differ across music research subdi
 - **ORCIDs**: [ORCID](https://orcid.org/) (Open Researcher and Contributor ID) is a persistent, unique digital identifier for researchers, free to register. It disambiguates authors across name changes, transliteration variants, or common surnames, and links research outputs, affiliations, and grants to a single record. Most major journals and funding agencies now require or strongly encourage ORCID registration at submission. Registering and maintaining an ORCID record is particularly important for early-career researchers whose publication record is still accumulating, and for researchers with names that are common or that vary across publications.
 - **Disciplinary variation**: Authorship norms differ across subdisciplines. In MIR and music technology, large multi-author collaborative papers (e.g., shared datasets, benchmarks, evaluation campaigns) are increasingly common and benefit most from CRediT transparency. In musicology, single- and dual-author papers remain the norm, and the concept of contributorship is less familiar. Music psychology sits closer to psychology norms, where author contribution statements are increasingly standard.
 - **AI authorship**: There is emerging consensus that generative AI tools (LLMs, etc.) cannot be listed as authors, as they cannot take responsibility for the work [@lund2024can]. Their use should instead be disclosed in a methods or acknowledgements statement. Several major publishers (Elsevier, Springer Nature, PLOS) have adopted explicit policies to this effect.
-
